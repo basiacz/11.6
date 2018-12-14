@@ -1,0 +1,71 @@
+.board h1,
+.board h2,
+.board p {
+  text-align: center;
+}
+
+button {
+  background-color: #e1eb60;
+  border: 1px solid lightgray;
+}
+
+.create-column {
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  width: 120px;
+  height: 50px;
+  background-color: #6d7b80;
+}
+
+.column-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.column-container .column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.column-container .column .btn-delete {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.column-container .column h2 {
+  margin-top: 0;
+}
+
+.column-card-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+}
+
+.column-card-list li {
+  background-color: #ffff68;
+  border: 1px solid lightblue;
+  margin-bottom: 10px;
+}
+
+.column-card-list li button {
+  background-color: transparent;
+  border: 0;
+}
+
+.column-container .column>button {
+  width: 100%;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}

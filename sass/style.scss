@@ -1,0 +1,61 @@
+.board h1,
+.board h2,
+.board p {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(225, 235, 96);
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.create-column {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 120px;
+  height: 50px;
+  background-color: rgb(109, 123, 128);
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-container .column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.column-container .column .btn-delete {
+  align-self: flex-end;
+}
+
+.column-container .column h2 {
+  margin-top: 0;
+}
+
+.column-card-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+  li {
+    background-color: rgb(255, 255, 104);
+    border: 1px solid rgb(173, 216, 230);
+    margin-bottom: 10px;
+    button {
+      background-color: transparent;
+      border: 0;
+    }
+  }
+}
+
+.column-container .column > button {
+  width: 100%;
+  align-self: flex-end;
+}
